@@ -1,0 +1,12 @@
+p{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 200px;
+}
+p:hover{
+	-webkit-transform: scale3d(2,2,2) rotate(3600deg) skew(20deg, 20deg);
+	background-color: lightblue;
+	border: 5px dashed blue;
+	transition: all 5s linear;
+}
